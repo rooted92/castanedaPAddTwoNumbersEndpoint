@@ -2,7 +2,7 @@
 //10-25-2022
 //Add 2 Numbers - Endpoint
 //Ask user for two numbers then function adds them together
-//Peer Review by; 
+//Peer Review by; Kent T. Works like its intended to do. Like I got to see the problem and not just the sum of the number.
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
