@@ -13,11 +13,11 @@ using Microsoft.Extensions.Logging;
 
 namespace castanedaPAddTwoNumbersEndpoint.Controllers
 {
+    [ApiController]
     [Route("[controller]")]
-    public class AddTwoNumbersController : Controller
+    public class AddTwoNumbersController : ControllerBase
     {
-        [HttpGet]
-        [Route("Adding/{num1}/{num2}")]
+        [HttpGet("Adding/{num1}/{num2}")]
         public string Math(string num1, string num2)
         {
             int validNum1 = 0;
